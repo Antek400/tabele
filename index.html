@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+    <head>
+        <html lang="pl">
+        <meta charset="UTF-8">
+        <title>Tabele</title>
+        <style>
+                 table {
+            border: 4px solid black;
+            font-weight: normal;
+            border-radius:15px;
+            width:200px;
+            height:150px;
+            text-align: center;
+            border-spacing: 0px;
+            }
+                td, th{
+                border: 2px solid #000000;
+                padding: 25px;
+            }
+                th {
+                background-color: gray;
+            }
+            body {
+                text-align: center;
+            }
+
+        </style>
+    </head>
+        <body>
+            <h1>Zadania z tabelkami</h1>
+                <hr color="black">
+            <h2>Zadanie 1.</h2>
+            <table align="center">
+                <tr><th rowspan="2">1</th><th>2</th><th>3</th></tr>
+                <tr><td>5</td><td>6</td></tr>
+                <tr><td>7</td><td>8</td><td>9</td></tr>
+            </table>
+                <hr color="black">
+            <h2>Zadanie 2.</h2>
+            <table align="center">
+                <tr><th>1</th><th>2</th><th>3</th><th>4</th></tr>
+                <tr><td>5</td><td colspan="2">6</td><td>7</td></tr>
+                <tr><td>8</td><td>9</td><td>10</td><td>11</td></tr>
+            </table>
+                <hr color="black">
+            <h2>Zadanie 3.</h2>
+            <table align="center">
+                <tr><th colspan="2">1</th><th>2</th><th>3</th></tr>
+                <tr><td rowspan="2">4</td><td>5</td><td>6</td><td>7</td></tr>
+                <tr><td>8</td><td>9</td><td>10</td></tr>
+                <tr><td>11</td><td>12</td><td>13</td><td>14</td></tr>
+            </table>
+                <hr color="black">
+            <h2>Zadanie 4.</h2>
+            <table align="center">
+                <tr><th>Nr.</th><th>Produkt</th><th>Cena</th><th>Ilość</th></tr>
+                <tr><td>1</td><td>Pomidor</td><td rowspan="2">5zł</td><td>Szt. 3</td></tr>
+                <tr><td>2</td><td>Ogórek</td><td>Szt. 4</td></tr>
+                <tr><td>3</td><td colspan="2">Jajka</td><td>Szt. 10</td></tr>
+                <tr><td>4</td><td>Sałata</td><td>8zł</td><td>Szt. 2</td></tr>
+            </table>
+                <hr color="black">
+            <h2>Zadanie 5.</h2>
+            <table align="center">
+                <tr><th colspan="3">1</th><th>1</th><th>1</th></tr>
+                <tr><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+                <tr><td rowspan="2">1</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+                <tr><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+                <tr><td>1</td><td colspan="3">1</td><td>1</td></tr>
+                <tr><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+            </table>
+
+
+        </body>
+</html>
